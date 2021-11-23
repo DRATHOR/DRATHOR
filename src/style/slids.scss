@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+  }
+    .silds{
+        float:left;
+        width:205px;
+        height:163px;
+        margin:10px;
+        font-size: 12px;
+        background:#ffffff;
+        .header{
+            //font-size: 15px;
+            padding:10px;
+            border-bottom:1px solid gray;
+          h2{
+            padding: 0;
+            margin:0;
+            }
+        }
+        .contents{
+            padding: 10px;
+            h4{
+                font-size: 12px;
+            }
+            .buttons{
+                display: flex;
+                justify-content: space-between;
+                padding-top:20px;
+                button{
+                    padding: 5px;
+                    width: 90px;
+                    font-weight: 600;
+                    border-radius: 5px;
+                    border:2px solid rgb(85, 204, 252);
+                   background: #ffffff;
+
+                    
+                }
+                button:first-child{
+                    margin-right:5px;
+                    background:rgb(90, 195, 236);
+                   border:none;
+                }    
+            }
+        }
+        
+    }
+
+
